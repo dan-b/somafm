@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/angular-material.min.css">
+    <title>SomaFM</title>
+</head>
+<body>
+<!--        <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>-->
+<div ng-app="radioApp">
+    <div ng-controller="stationsCtrl" ng-init="init()" ng-cloak>
+        <audio src=""></audio>
+        <div>
+            <span>media.readyState: {{player.readyState}}</span>
+        </div>
+<!--        <md-grid-list md-cols-xs="2" md-cols-sm="3" md-cols-md="6" md-cols-gt-md="6"  md-row-height-xs="1:1" md-row-height-sm="1:1" md-row-height-gt-md="1:1"  md-row-height="1:1" md-gutter-sm="4px" md-gutter-gt-xs="8px" >
+            <md-grid-tile md-colspan-xs="1" md-rowspan-xs="1" md-colspan-sm="1" md-rowspan-sm="1" class="station" ng-repeat="station in stations" ng-click="selectStation(station)" style="background-image:url('img/{{station.img}}');">
+                <md-grid-tile-header>{{station.name}}</md-grid-tile-header>
+                <md-grid-tile-footer>{{station.desc}}</md-grid-tile-footer>
+            </md-grid-tile>
+        </md-grid-list>-->
+        <md-content flex md-scroll-y>
+            <ui-view layout="column" layout-fill layout-padding>
+                <div class="inset" hide-sm></div>
+                <div class="tabpanel-container">
+                    <div role="tabpanel"
+                         id="tab1-content"
+                         aria-labelledby="tab1"
+                         md-swipe-left="next()"
+                         md-swipe-right="previous()"
+                         layout="row" layout-align="center center">
+                        <md-card flex-gt-sm="90" flex-gt-md="80">
+                            <md-card-content>
+                                <h2>Stations</h2>
+                                <md-list>
+                                    <md-item ng-repeat="station in stations | filter:search">
+                                        <md-item-content>
+                                            <div class="md-tile-left inset" hide-sm>
+                                                <user-avatar><img ng-src="img/120/{{station.img}}" /> </user-avatar>
+                                            </div>
+                                            <div class="md-tile-content">
+                                                <h3>{{station.title}}</h3>
+                                                <p>
+                                                    {{station.desc}}
+                                                </p>
+                                            </div>
+                                        </md-item-content>
+                                        <md-divider md-inset hide-sm ng-if="!$last"></md-divider>
+                                        <md-divider hide-gt-sm ng-if="!$last"></md-divider>
+                                    </md-item>
+                                </md-list>
+                            </md-card-content>
+                        </md-card>
+                    </div>
+                </div>
+            </ui-view>
+        </md-content>
+    </div>
+</div>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-aria.min.js"></script>
+<script src="js/angular-material.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
