@@ -32,3 +32,22 @@ var getStationsDataFromChannelsXml = function () {
     }
     console.log(JSON.stringify(stationsData, null, 2));
 }
+
+/* Get https://somafm.com/channels.xml, then convert to JSON, then extract necessary data, img ref to local files */
+var getStationsDataFromChannelsXml2 = function () {
+    var stationsData = [];
+    for (var i = 0; i < channels.length; i++) {
+        var id = channels[i]['-id'];
+        var title = channels[i].title;
+        var desc = channels[i].description;
+        var imgUrl = channels[i].image;
+        var img = imgUrl.slice(imgUrl.lastIndexOf("/")+1, imgUrl.length);
+        stationsData.push({
+            id: id,
+            title: title,
+            desc: desc,
+            img: img
+        })
+    }
+    console.log(JSON.stringify(stationsData, null, 2));
+}

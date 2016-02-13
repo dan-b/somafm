@@ -21,7 +21,7 @@
 <div ng-app="radioApp">
     <div ng-controller="stationsCtrl" ng-init="init()" ng-cloak>
         <audio src=""></audio>
-        <div>
+        <div id="media-state">
             <span>media.readyState: {{player.readyState}}</span>
         </div>
 <!--        <md-grid-list md-cols-xs="2" md-cols-sm="3" md-cols-md="6" md-cols-gt-md="6"  md-row-height-xs="1:1" md-row-height-sm="1:1" md-row-height-gt-md="1:1"  md-row-height="1:1" md-gutter-sm="4px" md-gutter-gt-xs="8px" >
@@ -47,7 +47,7 @@
                                     <md-item ng-repeat="station in stations | filter:search">
                                         <md-item-content>
                                             <div class="md-tile-left inset" hide-sm>
-                                                <user-avatar><img ng-src="station.imgUrl" /> </user-avatar>
+                                                <user-avatar><img ng-src="img/120/{{station.img}}" /> </user-avatar>
                                             </div>
                                             <div class="md-tile-content">
                                                 <h3>{{station.title}}</h3>

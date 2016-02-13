@@ -55,215 +55,192 @@ var stationsJson = [
         "id": "7soul",
         "title": "Seven Inch Soul",
         "desc": "Vintage soul tracks from the original 45 RPM vinyl.",
-        "imgUrl": "http://api.somafm.com/logos/256/7soul256.png"
+        "img": "7soul120.png"
     },
     {
         "id": "bagel",
         "title": "BAGeL Radio",
-        "desc": "What alternative rock radio should sound like.",
-        "imgUrl": "http://api.somafm.com/logos/256/bagel256.jpg"
+        "desc": "What alternative rock radio should sound like. ",
+        "img": "bagel120.png"
     },
     {
         "id": "beatblender",
         "title": "Beat Blender",
         "desc": "A late night blend of deep-house and downtempo chill.",
-        "imgUrl": "http://api.somafm.com/logos/256/beatblender256.png"
+        "img": "blender120.png"
     },
     {
         "id": "bootliquor",
         "title": "Boot Liquor",
         "desc": "Americana Roots music for Cowhands, Cowpokes and Cowtippers",
-        "imgUrl": "http://api.somafm.com/logos/256/bootliquor256.png"
+        "img": "bootliquor120.jpg"
     },
     {
         "id": "brfm",
         "title": "Black Rock FM",
         "desc": "From the Playa to the world, back for the 2015 Burning Man festival.",
-        "imgUrl": "http://api.somafm.com/logos/256/brfm256.jpg"
-    },
-    {
-        "id": "christmas",
-        "title": "Christmas Lounge",
-        "desc": "Chilled holiday grooves and classic winter lounge tracks. (Kid and Parent safe!)",
-        "imgUrl": "http://api.somafm.com/logos/256/christmas256.png"
+        "img": "1023brc.jpg"
     },
     {
         "id": "cliqhop",
         "title": "cliqhop idm",
         "desc": "Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.",
-        "imgUrl": "http://api.somafm.com/logos/256/cliqhop256.png"
+        "img": "cliqhop120.png"
     },
     {
         "id": "covers",
         "title": "Covers",
-        "desc": "Just covers. Songs you know by artists you don't. We've got you covered.",
-        "imgUrl": "http://api.somafm.com/logos/256/covers256.png"
+        "desc": "Just covers. Songs you know by artists you don't. We've got you covered. ",
+        "img": "covers120.jpg"
     },
     {
         "id": "deepspaceone",
         "title": "Deep Space One",
         "desc": "Deep ambient electronic, experimental and space music. For inner and outer space exploration.",
-        "imgUrl": "http://api.somafm.com/logos/256/deepspaceone256.png"
+        "img": "deepspaceone120.gif"
     },
     {
         "id": "defcon",
         "title": "DEF CON Radio",
         "desc": "Music for Hacking. The DEF CON Year-Round Channel.",
-        "imgUrl": "http://api.somafm.com/logos/256/defcon256.png"
+        "img": "defcon120.png"
     },
     {
         "id": "digitalis",
         "title": "Digitalis",
         "desc": "Digitally affected analog rock to calm the agitated heart.",
-        "imgUrl": "http://api.somafm.com/logos/256/digitalis256.png"
+        "img": "digitalis120.png"
     },
     {
         "id": "doomed",
         "title": "Doomed",
-        "desc": "Dark industrial/ambient music for tortured souls.",
-        "imgUrl": "http://api.somafm.com/logos/256/doomed256.png"
+        "desc": "Dark industrial/ambient music for tortured souls. ",
+        "img": "doomed120.png"
     },
     {
         "id": "dronezone",
         "title": "Drone Zone",
         "desc": "Served best chilled, safe with most medications. Atmospheric textures with minimal beats.",
-        "imgUrl": "http://api.somafm.com/logos/256/dronezone256.png"
+        "img": "dronezone120.jpg"
     },
     {
         "id": "dubstep",
         "title": "Dub Step Beyond",
         "desc": "Dubstep, Dub and Deep Bass. May damage speakers at high volume.",
-        "imgUrl": "http://api.somafm.com/logos/256/dubstep256.png"
+        "img": "dubstep120.png"
     },
     {
         "id": "earwaves",
         "title": "Earwaves",
-        "desc": "Spanning the history of electronic and experimental music from the early pioneers to the latest innovators.",
-        "imgUrl": "http://api.somafm.com/logos/256/earwaves256.jpg"
+        "desc": "Spanning the history of electronic and experimental music from the early pioneers to the latest innovators. ",
+        "img": "earwaves120.jpg"
     },
     {
         "id": "fluid",
         "title": "Fluid",
         "desc": "NEW! Drown in the electronic sound of instrumental hiphop, future soul and liquid trap.",
-        "imgUrl": "http://api.somafm.com/logos/256/fluid256.jpg"
+        "img": "fluid120.jpg"
     },
     {
         "id": "folkfwd",
         "title": "Folk Forward",
-        "desc": "Indie Folk, Alt-folk and the occasional folk classics.",
-        "imgUrl": "http://api.somafm.com/logos/256/folkfwd256.png"
+        "desc": "Indie Folk, Alt-folk and the occasional folk classics. ",
+        "img": "folkfwd120.jpg"
     },
     {
         "id": "groovesalad",
         "title": "Groove Salad",
         "desc": "A nicely chilled plate of ambient/downtempo beats and grooves.",
-        "imgUrl": "http://api.somafm.com/logos/256/groovesalad256.png"
+        "img": "groovesalad120.png"
     },
     {
         "id": "illstreet",
         "title": "Illinois Street Lounge",
-        "desc": "Classic bachelor pad, playful exotica and vintage music of tomorrow."
+        "desc": "Classic bachelor pad, playful exotica and vintage music of tomorrow.",
+        "img": "illstreet.jpg"
     },
     {
         "id": "indiepop",
         "title": "Indie Pop Rocks!",
         "desc": "New and classic favorite indie pop tracks.",
-        "imgUrl": "http://api.somafm.com/logos/256/indiepop256.png"
-    },
-    {
-        "id": "jollysoul",
-        "title": "Jolly Ol' Soul",
-        "desc": "Where we cut right to the soul of the season.",
-        "imgUrl": "http://api.somafm.com/logos/256/jollysoul256.png"
+        "img": "indychick.jpg"
     },
     {
         "id": "lush",
         "title": "Lush",
         "desc": "Sensuous and mellow vocals, mostly female, with an electronic influence.",
-        "imgUrl": "http://api.somafm.com/logos/256/lush256.png"
+        "img": "lush-x120.jpg"
     },
     {
         "id": "missioncontrol",
         "title": "Mission Control",
         "desc": "Celebrating NASA and Space Explorers everywhere.",
-        "imgUrl": "http://api.somafm.com/logos/256/missioncontrol256.png"
+        "img": "missioncontrol120.jpg"
     },
     {
         "id": "poptron",
         "title": "PopTron",
         "desc": "Electropop and indie dance rock with sparkle and pop.",
-        "imgUrl": "http://api.somafm.com/logos/256/poptron256.png"
+        "img": "poptron120.png"
     },
     {
         "id": "secretagent",
         "title": "Secret Agent",
         "desc": "The soundtrack for your stylish, mysterious, dangerous life. For Spies and PIs too!",
-        "imgUrl": "http://api.somafm.com/logos/256/secretagent256.png"
+        "img": "secretagent120.jpg"
     },
     {
         "id": "seventies",
         "title": "Left Coast 70s",
         "desc": "NEW! Mellow album rock from the Seventies. Yacht friendly.",
-        "imgUrl": "http://api.somafm.com/logos/256/seventies256.jpg"
+        "img": "seventies120.jpg"
     },
     {
         "id": "sf1033",
         "title": "SF 10-33",
         "desc": "Ambient music mixed with the sounds of San Francisco public safety radio traffic.",
-        "imgUrl": "http://api.somafm.com/logos/256/sf1033256.png"
+        "img": "sf1033120.png"
     },
     {
         "id": "sonicuniverse",
         "title": "Sonic Universe",
         "desc": "Transcending the world of jazz with eclectic, avant-garde takes on tradition.",
-        "imgUrl": "http://api.somafm.com/logos/256/sonicuniverse256.png"
+        "img": "sonicuniverse120.jpg"
     },
     {
         "id": "spacestation",
         "title": "Space Station Soma",
         "desc": "Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.",
-        "imgUrl": "http://api.somafm.com/logos/256/spacestation256.png"
+        "img": "sss.jpg"
     },
     {
         "id": "suburbsofgoa",
         "title": "Suburbs of Goa",
         "desc": "Desi-influenced Asian world beats and beyond.",
-        "imgUrl": "http://api.somafm.com/logos/256/suburbsofgoa256.png"
+        "img": "sog120.jpg"
     },
     {
         "id": "thetrip",
         "title": "The Trip",
         "desc": "Progressive house / trance. Tip top tunes.",
-        "imgUrl": "http://api.somafm.com/logos/256/thetrip256.jpg"
+        "img": "thetrip120.jpg"
     },
     {
         "id": "thistle",
         "title": "ThistleRadio",
         "desc": "Exploring music from Celtic roots and branches",
-        "imgUrl": "http://api.somafm.com/logos/256/thistle256.jpg"
+        "img": "thistle120.png"
     },
     {
         "id": "u80s",
         "title": "Underground 80s",
         "desc": "Early 80s UK Synthpop and a bit of New Wave.",
-        "imgUrl": "http://api.somafm.com/logos/256/u80s256.png"
-    },
-    {
-        "id": "xmasinfrisko",
-        "title": "Xmas in Frisko",
-        "desc": "SomaFM's wacky and eclectic holiday mix. Not for the easily offended.",
-        "imgUrl": "http://api.somafm.com/logos/256/xmasinfrisko256.jpg"
-    },
-    {
-        "id": "xmasrocks",
-        "title": "Christmas Rocks!",
-        "desc": "Have your self an indie/alternative holiday season!",
-        "imgUrl": "http://api.somafm.com/logos/256/xmasrocks256.png"
+        "img": "u80s-120.png"
     },
     {
         "id": "metal",
         "title": "Metal Detector",
         "desc": "NEW! From black to doom, prog to sludge, thrash to post, stoner to crossover, punk to industrial.",
-        "imgUrl": "http://api.somafm.com/logos/256/metal256.png"
+        "img": "metal120.png"
     }
 ];

@@ -4,6 +4,9 @@
 .station {
     background-repeat: no-repeat;
 }
+#media-state {
+    display: none;
+}
 /*
 
 /!*
