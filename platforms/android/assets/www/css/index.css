@@ -1,8 +1,114 @@
+@font-face {
+    font-family: ArialRounded;
+    src: url('../fonts/Arial-Rounded-MT-Bold-Bold.ttf');
+}
+@font-face {
+    font-family: ChaletNewYork;
+    src: url(../fonts/ChaletLondonNineteenSeventy.ttf);
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family: HipsterScriptPro;
+    src: url(../fonts/HipsterScriptPro.otf);
+}
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
 }
 .station {
     background-repeat: no-repeat;
+}
+#media-state {
+    display: none;
+}
+
+#scrolling { /* Carousel Frame */
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+li {
+    float: left;
+}
+md-content.md-default-theme {
+    background-color: #eee;
+}
+
+md-card {
+    background-color: #fff;
+}
+md-card h2:first-of-type {
+    margin-top: 0;
+}
+
+md-toolbar .md-button.md-default-theme {
+    border-radius: 99%;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.md-toolbar-tools-bottom {
+    font-size: small;
+}
+.md-toolbar-tools-bottom :last-child {
+    opacity: 0.8;
+}
+
+md-toolbar:not(.md-hue-1),
+.md-fab {
+    fill: #fff;
+}
+
+md-sidenav {
+    fill: #737373;
+}
+md-sidenav ng-md-icon {
+    position: relative;
+    top: 5px;
+}
+
+.user-avatar {
+    border-radius: 99%;
+}
+.station-tile {
+    overflow: hidden;
+}
+.station-img {
+    height: 100%;
+    opacity: .8;
+}
+.height-100 {
+    height: 100%;
+}
+.station-title {
+    font: 1em 'ArialRounded', 'HelveticaNeue', 'Open Sans';
+    display: block;
+    text-align: center;
+}
+.station-desc {
+    font: 12px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    color: #d5d5d5;
+    margin-top: -1px;
+}
+.station-title, .station-desc {
+    background: #fff;
+    color: #000;
 }
 /*
 
