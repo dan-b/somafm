@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/angular-material.min.css">
     <link rel="stylesheet" type="text/css" href="css/icon.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
     <title>SomaFM</title>
 </head>
 <body>
@@ -17,6 +17,15 @@
         <audio src=""></audio>
         <md-content class="md-padding md-default-theme" layout-xs="column" layout="row">
             <div flex-xs flex-gt-xs="50" layout="column">
+                <div class="" layout-align="end end">
+                    <md-fab-speed-dial md-open="true" md-direction="up" ng-class="md-fling">
+                        <md-fab-trigger>
+                            <md-button aria-label="menu" class="md-fab md-warn">
+                                <md-icon md-svg-src="img/icons/ic_play_circle_filled_black_48px.svg"></md-icon>
+                            </md-button>
+                        </md-fab-trigger>
+                    </md-fab-speed-dial>
+                </div>
                 <md-card ng-repeat="station in stations">
                     <md-card-title>
                         <md-card-title-text>
@@ -30,7 +39,9 @@
                         </md-card-title-media>
                     </md-card-title>
                     <md-card-actions layout="row" layout-align="end center">
-                        <md-button class="play-btn" ng-click="selectStation(station)">Play</md-button>
+                        <md-button class="play-btn" ng-click="selectStation(station)" aria-label="Play">
+                            <md-icon md-svg-icon="img/icons/ic_play_circle_filled_white_24px.svg"></md-icon>
+                        </md-button>
                     </md-card-actions>
                 </md-card>
             </div>
@@ -39,7 +50,9 @@
 </div>
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/angular-animate.min.js"></script>
+<script type="text/javascript" src="js/angular-route.min.js"></script>
 <script type="text/javascript" src="js/angular-aria.min.js"></script>
+<script type="text/javascript" src="js/angular-messages.min.js"></script>
 <script type="text/javascript" src="js/angular-material.min.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
